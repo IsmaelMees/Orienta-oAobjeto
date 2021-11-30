@@ -6,7 +6,7 @@ Classe e metodo
 class vetores{ 
 	int vetor[5]; 
 	int p, a,x;
-public:
+public:  metodo para acesso fora da classe
 vet(int vet[5]);
 
 
@@ -17,7 +17,7 @@ for (p=0;p<5;p++){
     vet[p] = a;
 
 processamento
-for (p=0;p<5;p++){
+for (p=0;p<5;p++){ tamanho do array 
     for (x=0;x<5;x++){
         if(vet[p] == vet[x]){
         if(p != x){
